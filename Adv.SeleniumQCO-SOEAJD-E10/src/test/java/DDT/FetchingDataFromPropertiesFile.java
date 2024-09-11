@@ -18,7 +18,7 @@ public class FetchingDataFromPropertiesFile {
 //		cd.findElement(By.id("password")).sendKeys("secret_sauce");
 //		cd.findElement(By.id("login-button")).click();
 
-		// Reading Data From External resources ----> Properties Files
+		// Reading Data From External resources --> Properties Files
 
 		// Step 1: Create a java representative object of the properties file
 		FileInputStream fis = new FileInputStream("./src/test/resources/ExternalResource.properties");
