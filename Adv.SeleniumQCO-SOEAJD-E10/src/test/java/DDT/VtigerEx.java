@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import ObjectRepository.LoginPage;
 
 public class VtigerEx {
+
 	public static void main(String[] args) {
 		WebDriver wd = new ChromeDriver();
 		wd.manage().window().maximize();
